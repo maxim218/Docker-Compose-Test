@@ -1,0 +1,17 @@
+version: "3"
+services:
+  app_first:
+    build:
+      context: ./app-first
+      dockerfile: Dockerfile
+    image: xxx_yyy_app_first:tag
+    ports:
+      - "5001:5000"
+  app_second:
+    build:
+      context: ./app-second
+      dockerfile: Dockerfile
+    image: xxx_yyy_app_second:tag
+    ports:
+      - "5002:5000"
+
