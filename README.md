@@ -12,3 +12,9 @@ docker-compose build
 docker-compose up
 ```
 
+Просмотр работающих контейнеров
+
+```
+docker ps
+```
+
